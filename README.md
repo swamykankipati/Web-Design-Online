@@ -53,7 +53,7 @@
  
 
 - [x] ur Ulimate 
-- [] Ur Good 
-- [] Ur Super
+- [x] Ur Good 
+- [x] Ur Super
 
 <!-- Good Afternoon -->
