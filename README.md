@@ -52,8 +52,8 @@
 | Co2     | Col2    |
  
 
--[x] ur Ulimate 
--[] Ur Good 
--[] Ur Super
+- [x] ur Ulimate 
+- [] Ur Good 
+- [] Ur Super
 
 <!-- Good Afternoon -->
