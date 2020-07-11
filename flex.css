@@ -1,0 +1,64 @@
+.parent{
+	display: flex;
+	flex-direction:row;
+	border: solid  #ff0000;
+	width: 100%;
+	justify-content:center;
+	flex-wrap: wrap;
+
+}
+.parent>div{
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 10px 10px 10px 10px; 
+	text-align: center;
+}
+/*mobile*/
+@media only screen and (min-width:320px) and (max-width:480px){
+	body{
+		background-color: blue;
+
+	}
+	.parent{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.parent>div{
+		width: 100%;
+	}
+
+}
+/* tablet*/
+@media only screen and (min-width:481px) and (max-width:768px){
+	body{
+		background-color:orange;
+
+	}
+	.parent{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.parent>div{
+		width: 90%;
+	}
+
+}
+/* tablet*/
+@media only screen and (min-width:760px) and (max-width:1024px){
+	body{
+		background-color:maroon;
+
+	}
+	.parent{
+		display: flex;
+		flex-direction:row;
+		width: 100%;
+	}
+	.parent>div{
+		width: 90%;
+	}
+
+}

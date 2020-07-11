@@ -1,0 +1,60 @@
+h1{
+	color:#3236a8;
+	text-align: center;
+}
+.main{
+	text-align:center;
+	width:100%;
+	height:90%;
+	border: 2px solid ;
+}
+.part{
+	display:flex;
+	flex-direction: row;
+	text-align: center;
+	border: 2px dashed;
+	margin: 1%;
+	padding: 1%;
+}
+.sub{
+	width:33%;
+	box-shadow: 10px 0px 10px 0px;
+	padding:1%;
+	margin: 1%;
+}
+h2{
+	color:blue;
+}
+p{
+	color:#ff1a75;
+	font-style: italic;
+}
+.footer{
+	text-align: center;
+	color: blue;
+	padding: 1%;
+	margin: 1%;
+	background-color: maroon;
+	box-shadow: 3px 3px 3px maroon;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+	.main{
+		width: 90%;
+		border: none;
+	}
+	img{
+		width:200px;
+	}
+	.part{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		border: none;
+	}
+	.sub{
+		width:100%;
+	}
+.footer{
+	width: 90%;
+}
+}
