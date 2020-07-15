@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Card</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <style type="text/css">
+         img{
+         width: 200px;
+         height: 150px;
+         }
+         .card{
+         margin-right:auto;
+         margin-left: auto;
+         width: 40%;
+         text-align: center;
+         }
+         .parent{
+         display: flex;
+         flex-direction: row;
+         width: 100%;
+         border: 2px dotted blue;
+         }
+         .parent>div{
+         width: 50%;
+         box-shadow: 5px 5px 5px 5px;
+         padding: 1%;
+         margin: 1%;
+         text-align: center;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="parent">
+         <div class="childone">
+            <h1>Childone</h1>
+            <div class="card">
+               <div class="card-body">
+                  <img src="1.png" alt="profile-img">
+                  <h1 class="card-title">APSSDC</h1>
+                  <h3 class="card-text">Online Traning Program </h3>
+                  <a class="btn btn-primary">Click</a>
+               </div>
+            </div>
+         </div>
+         <div class="childtwo">
+            <h1>ChildTwo</h1>
+            <div class="card">
+               <div class="card-body">
+                  <img src="1.png" alt="profile-img">
+                  <h1 class="card-title">APSSDC</h1>
+                  <h3 class="card-text">Online Traning Program </h3>
+                  <a class="btn btn-primary">Click</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </body>
+</html>
