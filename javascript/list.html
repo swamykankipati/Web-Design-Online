@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul id="k"><li>SaiNath</li><li>Manooj</li><li>Bhanu Chandra</li> <li>Govindu</li></ul>
+<button onclick="change()">Try it</button>
+
+<script>
+function change() {
+  var sa = document.createTextNode("SDC Traning");
+  var doing = document.getElementById("k").childNodes[0];
+  doing.replaceChild(sa, doing.childNodes[0]);
+}
+function tryy() {
+
+var t=document.getElementById('para');
+t.textContent="Hello World";
+t.replaceChild(t)
+}
+
+</script>
+<p id="para">Hello Good Morning</p>
+<button onclick="tryy()">Change</button>
+</body>
+</html>

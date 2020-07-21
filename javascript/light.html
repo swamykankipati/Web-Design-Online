@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>turn on & off</title>
+
+</head>
+<body id="root">
+	<!-- <img src="img/off.gif" id='im'>
+	<button onclick="document.getElementById('im').src='img/on.gif'">on</button>
+	<button onclick="document.getElementById('im').src='img/off.gif'">off</button>
+	<p id="crr"></p>
+	<p id="cost"></p>
+	<p id="com"></p> -->
+	<script type="text/javascript">
+// 	 var car={
+// 			com:"Tata",
+// 			model:"shift",
+// 			cost:"3 lac"
+// 		}
+// 		document.getElementById('crr').innerHTML=car.model;
+// 		document.getElementById('cost').innerHTML=car.cost;
+// 		document.getElementById('com').innerHTML=car.com;
+	
+// for(i in car){
+// 	document.write(car[i])
+// }
+var sai=document.getElementById('root')
+var hl=document.createElement('h1')
+hl.textContent="Monoj,Sainath,Bhanu Chandra Reddy,Govindu";
+// hl.setAttribute("style","color:blue")
+hl.style="color:blue"
+hl.classList.add('SaiCClass')
+sai.appendChild(hl)
+
+
+	</script>
+	<ul id="web">
+		<li>SaiNath</li> 
+		<li>Monooj</li>
+		<li>Bhanu Chandra</li>
+		<li>Govindu</li>
+	</ul>
+	<button onclick="change()">Hello</button>
+</body>
+<script type="text/javascript">
+	function change() {
+	 var sa=document.createTextNode('SDC Traning');
+	 // var doing=document.getElementById("web").childNodes[2];
+	 var h=document.getElementById('web').childNodes[2];
+
+	 h.replaceChild(sa,h.childNodes[2]);
+
+
+ }
+</script>
+
+</html>

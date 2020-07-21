@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+		function myfun() {
+			a=10
+			b=20
+			c=a+b
+k=document.getElementById('myfun')
+k.textContent=c;
+
+		}
+
+function button(){
+	var bt=document.createElement('BUTTON')
+	bt.textContent="ClickMe";
+	document.body.append(bt)
+
+}
+document.write(screen.width)
+document.write(screen.height)
+document.write(window.location.href)
+	</script>
+
+</head>
+<body>
+	<p id="myfun"></p>
+	<h1 id="da"></h1>
+	<button onclick="document.getElementById('da').innerHTML=Date();">Click On Date</button>
+<button onclick="myfun()">Myfun</button>
+<button onclick="button">CreateButton</button>
+</body>
+</html>

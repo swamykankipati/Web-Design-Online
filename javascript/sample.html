@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example For Form</title>
+    <script type="text/javascript">
+        function Check() {
+
+            if(document.getElementById('name').value=="") {
+                alert("enter something valid");
+                return false;
+            }
+            if (document.getElementById('age').value=="") {
+                alert('enter the age')
+                return false
+
+            }
+             if (document.getElementById('email').value=="") {
+                alert('enter the email')
+                return false
+
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+
+    <form method="post" onsubmit="Check();">
+        Name: <input type="text" name="name" id="name"/><br>
+        Age: <input type="text" name="age" id="age"/><br>
+        Email: <input type="text" name="email" id="email"/><br>
+        <p><input type="submit" value="Submit" /></p>
+    </form>
+</body>
+</html>
