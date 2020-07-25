@@ -47,12 +47,7 @@ var heading=document.createElement('h1');
         manoj.classList.add('man')
         div.appendChild(manoj)
         pdata.appendChild(div)
-
-
     }
-
-
-
 }
 function foot(){
 	var footer=document.querySelector('.foot');
