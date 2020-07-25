@@ -11,15 +11,22 @@ function change() {
   var doing = document.getElementById("k").childNodes[0];
   doing.replaceChild(sa, doing.childNodes[0]);
 }
-function tryy() {
+// function tryy() {
 
-var t=document.getElementById('para');
-t.textContent="Hello World";
-t.replaceChild(t)
+// var t=document.getElementById('para');
+// t.textContent="Hello World";
+// t.replaceChild(t)
+// }
+function today(){
+	var data=document.getElementById('para');
+	console.log(data)
+	data.textContent="Wlcome To Today Class";
+	data.replaceChild(data)
+
 }
 
 </script>
 <p id="para">Hello Good Morning</p>
-<button onclick="tryy()">Change</button>
+<button onclick="today()">Today</button>
 </body>
 </html>

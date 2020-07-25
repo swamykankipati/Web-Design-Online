@@ -1,0 +1,45 @@
+{
+	"web":[{
+		"img":"img/iphone.jpg",
+		"brand":"IPhone",
+		"model":"PhoneX",
+		"price":"20000",
+		"button":"Click ME"
+		
+	},
+	{
+		"img":"img/m30.jpg",
+		"brand":"Samsung",
+		"model":"M30",
+		"price":"25000",
+		"button":"Click ME"
+	},
+	{
+		"img":"img/m8.jpg",
+		"brand":"REDMI",
+		"model":"M8",
+		"price":"13000",
+		"button":"Click ME"
+	},
+	{
+		"img":"img/xt.jpg",
+		"brand":"Real-Me",
+		"model":"XT",
+		"price":"15000",
+		"button":"Click ME"
+	},
+	{
+		"img":"img/v2.jpg",
+		"brand":"OnePlus",
+		"model":"One+",
+		"price":"25000",
+		"button":"Click ME"
+	},
+	{
+		"img":"img/vivo.jpg",
+		"brand":"Vivo",
+		"model":"F1",
+		"price":"13000",
+		"button":"Click ME"
+	}]
+}

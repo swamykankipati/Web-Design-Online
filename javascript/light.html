@@ -34,21 +34,16 @@ sai.appendChild(hl)
 
 
 	</script>
-	<ul id="web">
-		<li>SaiNath</li> 
-		<li>Monooj</li>
-		<li>Bhanu Chandra</li>
-		<li>Govindu</li>
-	</ul>
+	<ul id="web"><li>SaiNath</li><li>Monooj</li><li>Bhanu Chandra</li><li>Govindu</li></ul>
 	<button onclick="change()">Hello</button>
 </body>
 <script type="text/javascript">
 	function change() {
 	 var sa=document.createTextNode('SDC Traning');
 	 // var doing=document.getElementById("web").childNodes[2];
-	 var h=document.getElementById('web').childNodes[2];
+	 var h=document.getElementById('web').childNodes[0];
 
-	 h.replaceChild(sa,h.childNodes[2]);
+	 h.replaceChild(sa,h.childNodes[0]);
 
 
  }
